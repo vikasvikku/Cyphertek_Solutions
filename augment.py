@@ -35,6 +35,6 @@ def augment_and_save(image_path, output_folder, num_copies=30, size=(416, 416), 
         print(f"Saved: {save_path} | Angle: {angle:.2f}°")
 
 
-image_path = r"C:\Users\vikas\Downloads\images\images\Segment B.jpg"  
-output_folder = "Annotated_images"
+image_path = r"C:\Users\vikas\Downloads\images\images\Segment_G_LED1.png" 
+output_folder = "Annotated_images_oct8"
 augment_and_save(image_path, output_folder)

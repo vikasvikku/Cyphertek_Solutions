@@ -28,6 +28,19 @@
 ## Features
 - Resizes images to 416x416
 - Creates 30 augmented copies
-- <10% images with ≤4° rotation
-- Remaining images with up to ±10° rotation
+- Random rotation up to ±4° for all images
+- Uses original filename with numbering
 - Handles grayscale images
+- PyTorch tensor conversion included
+
+## Configuration
+Modify these variables in `augment.py`:
+- `image_path`: Path to input image
+- `output_folder`: Output directory
+- `num_copies`: Number of copies (default: 30)
+- `max_angle`: Maximum rotation angle (default: 4°)
+
+## Output
+- Files named: `filename_01.png`, `filename_02.png`, etc.
+- All images 416×416 grayscale
+- Random rotations within ±4°
