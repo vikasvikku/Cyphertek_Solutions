@@ -29,7 +29,7 @@ def convert_to_greyscale(image_path, output_path="output_greyscale.png"):
 
 if __name__ == "__main__":
     # 🔧 Just change this path to your input image
-    image_path = r"C:\Users\vikas\Downloads\images\segment_f_and_led1.png"  # ⬅️ paste your image path here
-    output_path = "Segment_F_LED1.png"  # name of the output image
+    image_path = r"C:\Users\vikas\Downloads\Demo_Images\BLUETOOTH_icon_missing.png"  # ⬅️ paste your image path here
+    output_path = "Bluetooth_icon_missing.png"  # name of the output image
 
     convert_to_greyscale(image_path, output_path)
